@@ -1,0 +1,25 @@
+td
+{
+  background: rgb(44, 42, 42);
+  padding: 5px;
+  
+}
+
+th{
+  background: rgb(111, 107, 107);
+  padding: 5px;
+}
+
+input{
+  height: 30px;
+  width: 240px;
+  margin-bottom: 20px;
+
+}
+
+button{
+  height: 40px;
+  width: 80px;
+  background: cyan;
+  border-radius: 20px;
+}

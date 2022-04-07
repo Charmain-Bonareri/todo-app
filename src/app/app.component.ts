@@ -14,9 +14,19 @@ export class AppComponent {
       priority:3
     },
     {
+      label: 'Go and register new Safaricom line before deadline',
+      done: true,
+      priority:1
+    },
+    {
       label: 'Pay Wifi Bill',
       done: true,
       priority:1
+    },
+    {
+      label: 'Feed the Chicken',
+      done: false,
+      priority:5
     },
     {
       label: 'Clean house',
@@ -27,6 +37,11 @@ export class AppComponent {
       label: 'Fix the bulb',
       done: false,
       priority:5
+    },
+    {
+      label: 'Cook lunch for kids',
+      done: true,
+      priority:2
     }
   ];
 
