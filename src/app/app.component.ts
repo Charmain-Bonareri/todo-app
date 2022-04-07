@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'] //array we can have multiple
 })
 export class AppComponent {
-  title = 'Todo List'; //will contain data and behavior //
+  title = '-  To-do List  -'; //will contain data and behavior //
   todos = [             //we create an array of objects  //created an object and then indent it so that it is more readable
     {
       label: 'Bring Milk',
@@ -15,6 +15,11 @@ export class AppComponent {
     },
     {
       label: 'Go and register new Safaricom line before deadline',
+      done: true,
+      priority:1
+    },
+    {
+      label: 'Call Titus to find out about the money he owes you, remind him the interest accrued',
       done: true,
       priority:1
     },

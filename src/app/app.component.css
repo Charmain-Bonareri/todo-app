@@ -2,7 +2,7 @@ td
 {
   background: rgb(44, 42, 42);
   padding: 5px;
-  
+
 }
 
 th{
@@ -22,4 +22,6 @@ button{
   width: 80px;
   background: cyan;
   border-radius: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: large;
 }
