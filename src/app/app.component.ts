@@ -15,7 +15,7 @@ export class AppComponent {
     },
     {
       label: 'Pay Wifi Bill',
-      done: false,
+      done: true,
       priority:1
     },
     {
@@ -37,6 +37,10 @@ export class AppComponent {
     done : false
    };
     this.todos.push(newTodo);
+  }
+
+  deleteTodo(todo) {
+    this.todos = this.todos.filter( t=> t.label !== todo.label);
   }
 }
 
