@@ -3,8 +3,6 @@ This is my first Angular App that is a to-do list that allows the user to add or
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
-<img alt="Charmain's Portfolio" title="Charmain's Portfolio" src="/home/charmain/todo-app/Screenshot from 2022-04-07 14-22-28.png" height="500">
-
 ### By Charmain Bonareri, 07/04/2022
 
 ## Description
