@@ -7,8 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Todo List'; //will contain data and behaviour
-  todo = {
-          label: 'Bring Milk',
-          done: false,
-          priority:3}; //created an object and then indent it so that it is more readable
+  todo = [             //we create an array of objects
+    {
+      label: 'Bring Milk',
+      done: false,
+      priority:3}; //created an object and then indent it so that it is more readable
 }
