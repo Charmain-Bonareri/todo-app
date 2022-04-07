@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'] //array we can have multiple
 })
 export class AppComponent {
-  title = 'Todo List'; //will contain data and behaviour
-  todo = [             //we create an array of objects  //created an object and then indent it so that it is more readable
+  title = 'Todo List'; //will contain data and behavior //
+  todos = [             //we create an array of objects  //created an object and then indent it so that it is more readable
     {
       label: 'Bring Milk',
       done: false,

@@ -1,9 +1,15 @@
 <h1>{{title}}</h1>
 
-<div>
-  <b>{{todo.label}}</b>
-  <i>{{todo.priority}}</i>
-    -{{todo.done}}
+<table>
+  <tr>
+   <th>Label</th>
+   <th>Priority</th>
+   <th>Done</th>
+  </tr>
+  <tr *ngFor="let todo of todos">
+    <td>{{todo.label}}</td>
+    <td>{{todo.priority}}</td>
+    <td>{{todo.done ? '&#10003;' : '&#10005;'}}</td>
+  </tr>
+</table>
 
-
-</div>
