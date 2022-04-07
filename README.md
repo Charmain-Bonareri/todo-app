@@ -1,27 +1,42 @@
 # TodoApp
+This is my first Angular App that is a to-do list that allows the user to add or delete to do items.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
+<img alt="Charmain's Portfolio" title="Charmain's Portfolio" src="/home/charmain/todo-app/Screenshot from 2022-04-07 14-22-28.png" height="500">
+
+### By Charmain Bonareri, 07/04/2022
+
+## Description
+To do App is an angular app that allows the user to view a to do list, add or delete to do items.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Technologies
+* Angular - a TypeScript-based free and open-source web application framework
+* TypeScript - a strict syntactical superset of JavaScript and adds optional static typing to the language.
+* HTML - HTML is the standard markup language for Web pages.
+* CSS - CSS is the language we use to style an HTML document.
+* Bootstrap - is the most popular CSS Framework for developing responsive and mobile-first websites.
+
+
+
+# Licence
+MIT Licence 
+copyright (c) 2022 Charmain Bonareri. All Rights Reserved.
+
+
+## Authors information
+Contributions are always welcome!  
+If you have any questions,comments or correctional advice, feel free to contact me
+* Email: mogerecharmain@gmail.com
+* [LinkedIn](https://www.linkedin.com/in/charmain-bonareri-71a209126/)
